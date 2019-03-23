@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="img/JTfav.ico" type="image/x-icon">
+	<title>Johnathan Tran</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+<div class="container-fluid">
+	<a class="navbar-brand" href="#"><img src="img/JT Logo Navbar-63.png"
+		style=width:300px></a>
+
+	<!-- Makes the navigation menu -->
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+			<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div class="collapse navbar-collapse" id="navbarResponsive">
+
+		<!-- Pushes the navbar to the RH side at full width -->
+		<ul class="navbar-nav ml-auto">
+
+			<li class="nav-item">
+				<a class="nav-link" href="index.html">Home</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="Johnathan Tran Resume.pdf" target="_blank">Resume</a>
+			</li>
+			<li class="nav-item active">
+				<a class="nav-link" href="#">Projects</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="Labs.html">Labs</a>
+			</li><li class="nav-item">
+			<li class="nav-item">
+				<a class="nav-link" href="#connectSection">Connect</a>
+			</li>
+
+		</ul>
+	</div>
+</div>
+</nav>
+
+<!--- Rapid Prototypes Welcome -->
+<div class="container-fluid padding">
+	<div class="row welcome text-center">
+	<div class="col-12">
+		<h1 class="display-5">RAPID PROTOTYPES</h1>
+	</div>
+	<hr>
+</div>
+</div>
+
+
+
+<!-- Three Column Section -->
+<div class="container-fluid padding">
+<div class="row padding">
+	<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+		<h3>REVERSE ENGINEERED PEPPER GRINDER</h3>
+		<hr>
+		<p>In my Introduction to Engineering Design and Graphics class in freshman year,
+		I joined a team of three other students to reverse engineer a small mechanical device.
+		My team selected a mechanical pepper grinder. Our task was to create 3D models of each individual
+		part using Solidworks, 3D print these models, and assemble a rapid prototype of the final
+		device.</p>
+		<br>
+	</div>
+
+	<div class="col-xs-12 col-sm-8 col-md-8 col-lg-4">
+		<img src="img/pepperGrinderAssembly.JPG" class="img-fluid"
+		alt="Assembly of a 3D modeled pepper grinder." style="padding-bottom:0.5em;"/>
+	</div>
+
+	<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+		<img src="img/exploded%20assembly.JPG" class="img-fluid"
+		alt="Exploded assembly of a 3D modeled pepper grinder.">
+
+	</div>
+</div>
+<hr class="my-4">
+
+<!-- Modeled Section -->
+<div class="container-fluid padding">
+<div class="row padding">
+	<h5>Housing and Core</h5>
+	<hr>
+	<p>I designed the housing and core of the pepper grinder using SolidWorks. This is the mechanism
+		that actually performs the grinding of the pepper granules.</p>
+
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+		<img src="img/core%20ortho.PNG" class="img-fluid">
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+		<img src="img/housing ortho.PNG" class="img-fluid">
+	</div>
+</div>
+</div>
+<hr>
+
+<!-- 3D Prints Section -->
+<div class="container-fluid padding">
+<div class="row padding">
+	<h5>3D Prints</h5>
+	<hr>
+	<p>These are all the parts of the pepper grinder designed and 3D printed by my team and I.
+	Shown: housing, core, drive shaft, retainer bar, container, and container lid.</p>
+
+	<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+		<img src="img/housingCorePrint.PNG" class="img-fluid">
+	</div>
+	<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+		<img src="img/shaftBarPrint.PNG" class="img-fluid">
+	</div>
+	<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+		<img src="img/bodyCapPrint.PNG" class="img-fluid">
+	</div>
+
+</div>
+</div>
+<hr>
+
+<!-- Cannon -->
+<div class="container-fluid padding">
+<div class="row padding">
+	<div class="col-lg-4">
+		<h3>SPRING LOADED BALL LAUNCHER</h3>
+		<hr>
+		<p>In my Dynamics class sophomore year, I teamed up with two other students to
+	 		produce a spring loaded tennis ball launcher.
+			The goal had two parts:</p>
+		<p>1. Use the launcher to propel a tennis ball to hit a target 1.5 m away
+			and 20 cm tall</p>
+		<p>2. Avoid a 20 cm tall barrier that would be placed at the half distance mark.</p>
+		<p>To achieve this, we had to calculate spring displacement and angle, accounting for variables such as energy loss,
+			mass of the ball and its cradle, and stiffness of the spring. To model the process, we applied principles of
+			kinematics and kinetics of particle movement. The calculation basis was simple: apply kinematics to find
+			the necessary velocity of the projectile, then use conservation of energy to find the necessary spring compression.</p>
+		<br>
+	</div>
+
+	<div class="col-lg-8">
+		<img src="img/solver.PNG" class="img-fluid"
+		alt="Calculations done through Excel Solver.">
+	</div>
+
+	<div class="col-lg-6">
+		<img src="img/Proposal Diagram.jpg" class="img-fluid"
+		alt="Initial sketch of ball launcher." style="padding-bottom:0.5em;"/>
+	</div>
+
+	<div class="col-lg-4">
+		<img src="img/cannon.PNG" class="img-fluid"
+		alt="Cut view of 3D printed spring loaded ball launcher.">
+	</div>
+
+	<div class="col-lg-8">
+		<img src="img/entireCannon.PNG" class="img-fluid"
+		alt="Final 3D printed spring loaded ball launcher.">
+	</div>
+
+	<p>As seen, the launcher operates using a pawl locked into a threaded rod to
+	hold the spring in tension. When the pawl is released, the launcher fires the ball.
+	Our team was given a budget of $50 for this project, but we chose to 3D print the
+	entire device for cost efficiency.</p>
+
+</div>
+<hr class="my-4">
+
+<!--- Designed Parts Welcome -->
+<div class="container-fluid padding" id="designedPartsSection">
+	<div class="row welcome text-center">
+	<div class="col-12">
+		<h1 class="display-5">DESIGNED PARTS</h1>
+	</div>
+	<hr>
+</div>
+</div>
+
+<!-- Designs -->
+<div class="container-fluid padding">
+<div class="row padding">
+	<p>Featured here are a few parts I have created using 3D modeling software such as SolidWorks
+	and Autodesk Inventor.</p>
+
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<img src="img/swivelEyeBlock.PNG" class="img-fluid">
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<img src="img/computerChip.PNG" class="img-fluid">
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<img src="img/toolingPad.PNG" class="img-fluid">
+	</div>
+
+</div>
+</div>
+<hr>
+
+
+<!--- Footer -->
+<footer>
+	<div class="container-fluid padding" id="connectSection">
+		<div class="row text-center">
+
+			<div class="col-12">
+				<h5>Let's Connect!</h5>
+				<a href="https://www.linkedin.com/in/johnathan-tran-954304149/"><i class="fab fa-linkedin fa-3x"></i></a>
+				<a href="https://www.facebook.com/johnathan.tran.14"><i class="fab fa-facebook fa-3x"></i></a>
+				<p></p>
+				<p>Email: jht697@utexas.edu</p>
+			</div>
+
+			<div class="col-12">
+				<hr class="light-100">
+				<img src="img/JT Logo-61.png" style=width:220px>
+				<h4>&copy; johnhtran.com</h5>
+				<p></p>
+				<p>Outside of engineering, I also work in graphic design and branding.
+					My creative portfolio can be found here:</p>
+				<a href="https://johnathantran.wixsite.com/design" target="_blank">Graphic Design Portfolio</a>
+			</div>
+		</div>
+	</div>
+<footer>
+
+
+</body>
+</html>
